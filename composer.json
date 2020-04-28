@@ -1,0 +1,19 @@
+{
+    "name": "futuralight/JSMinGateaway",
+    "description": "JSMin PHP FFI Gateaway",
+    "type": "library",
+    "require": {
+        "php": "^7.4.0"
+    },
+    "authors": [
+        {
+            "name": "futuralight",
+            "email": "futuralight@outlook.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "JSMinGateaway\\": "src/"
+        }
+    }
+}
