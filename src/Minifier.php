@@ -11,7 +11,7 @@ class Minifier
     {
         $this->ffi = \FFI::cdef(
             "char* MinifyJS(char* p0, char* p1);",
-            __DIR__ . "../bin/gateaway.so"
+            __DIR__ . "/../bin/gateaway.so"
         );
     }
 
