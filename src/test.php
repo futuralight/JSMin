@@ -2,7 +2,7 @@
 
 require "Minifier.php";
 
-use JSmin\Minifier;
+use JSMinGateaway\Minifier;
 
 $s = '/**
 * Bootstrap.js by @mdo and @fat, extended by @ArnoldDaniels.
@@ -17,4 +17,4 @@ $m = new Minifier();
 // $js = $m->getDirectory();
 $js = $m->minify($s);
 
-echo $js;
+echo $js; //telephones

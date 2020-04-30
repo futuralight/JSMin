@@ -1,5 +1,5 @@
 {
-    "name": "futuralight/JSMinGateaway",
+    "name": "futuralight/jsmin-gateaway",
     "description": "JSMin PHP FFI Gateaway",
     "type": "library",
     "require": {
@@ -13,7 +13,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "JSMinGateaway\\": ""
+            "JSMinGateaway\\": "src/"
         }
     }
 }
